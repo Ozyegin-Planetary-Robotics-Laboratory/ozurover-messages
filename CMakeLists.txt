@@ -12,7 +12,6 @@ find_package(catkin REQUIRED COMPONENTS
         rospy
         std_msgs
         message_generation
-        message_runtime
 )
 
 ## System dependencies are found with CMake's conventions
@@ -50,7 +49,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## Generate messages in the 'msg' folder
 add_message_files(
-#   FILES
+   FILES
    GPS.msg
 #   Message2.msg
 )
@@ -88,7 +87,6 @@ add_message_files(
 ##     find_package(catkin REQUIRED COMPONENTS ...)
 ##   * uncomment the "generate_dynamic_reconfigure_options" section below
 ##     and list every .cfg file to be processed
-
 ## Generate dynamic reconfigure parameters in the 'cfg' folder
 # generate_dynamic_reconfigure_options(
 #   cfg/DynReconf1.cfg
@@ -107,7 +105,7 @@ add_message_files(
 catkin_package(
         #  INCLUDE_DIRS include
         #  LIBRARIES neo6m-ros
-        CATKIN_DEPENDS roscpp rospy message_runtime message_generation std_msgs
+        CATKIN_DEPENDS roscpp rospy std_msgsmessage_runtime
         #  DEPENDS system_lib
 
 )
