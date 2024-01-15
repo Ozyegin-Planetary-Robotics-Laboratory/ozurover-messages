@@ -52,9 +52,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    Steer.msg
-   ArUco.msg
+   Marker.msg
    GPS.msg
-   Mallet.msg
 #   Message2.msg
 )
 
