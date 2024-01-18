@@ -62,8 +62,8 @@ add_service_files(
   FILES
 #  Service1.srv
 #  Service2.srv
-  Enqueue.srv
-  Dequeue.srv
+  AddMarker.srv
+  GetMarker.srv
   Abort.srv
 )
 
