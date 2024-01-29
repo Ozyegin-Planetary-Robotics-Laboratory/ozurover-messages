@@ -1,0 +1,4 @@
+geometry_msgs/PoseStamped rover
+geometry_msgs/PoseStamped goal
+---
+nav_msgs/Path path
