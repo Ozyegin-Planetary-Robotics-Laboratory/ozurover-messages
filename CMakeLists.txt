@@ -54,14 +54,11 @@ add_message_files(
    Steer.msg
    Marker.msg
    GPS.msg
-#   Message2.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-#  Service1.srv
-#  Service2.srv
   AddMarker.srv
   GetMarker.srv
   Abort.srv
