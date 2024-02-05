@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
         roscpp
         rospy
         std_msgs
+        nav_msgs
         geometry_msgs
         message_generation
 )
@@ -75,6 +76,7 @@ add_service_files(
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
+  nav_msgs
   geometry_msgs
   std_msgs
 )
@@ -110,7 +112,7 @@ generate_messages(
 catkin_package(
         #  INCLUDE_DIRS include
         #  LIBRARIES neo6m-ros
-        CATKIN_DEPENDS roscpp rospy std_msgs geometry_msgs message_runtime
+        CATKIN_DEPENDS roscpp rospy std_msgs nav_msgs geometry_msgs message_runtime
         #  DEPENDS system_lib
 
 )
