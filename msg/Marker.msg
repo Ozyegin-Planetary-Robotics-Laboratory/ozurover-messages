@@ -6,7 +6,8 @@
 #   0-999: 4x4 ArUco Tags with ID ranging from 0 to 999.
 #   1000: Mullet
 #   1001: Bottle
-#   1002-... is currently not assigned.
+#   1002: No Marker
+#   1003-... is currently not assigned.
 
 geometry_msgs/PoseStamped pose
 uint16 type
