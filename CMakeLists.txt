@@ -66,6 +66,7 @@ add_service_files(
   AddMarker.srv
   GetMarker.srv
   Abort.srv
+  GPSLocalize.srv
   Pathfind.srv
 )
 
