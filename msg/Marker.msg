@@ -7,7 +7,8 @@
 #   1000: Mullet
 #   1001: Bottle
 #   1002: No Marker
-#   1003-... is currently not assigned.
+#   1003: Coloured Cardboard
+#   1004-... is currently not assigned.
 
 geometry_msgs/PoseStamped pose
 uint16 type
